@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Navbar from "./Navbars/Navbar";
+import Home from "./components/Home";
+import Footer from "./Footers/Footer";
+import Userdash from "./components/Userdash";
+import Resume from "./components/Resume";
+import { Routes, Route } from "react-router-dom";
+import Login from "./components/Login";
+import Register from "./components/Register";
+import Harsh from "./components/Harsh";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Routes>
+        <Route path="/userdash" element={<Userdash />}></Route>
+        <Route path="/resume" element={<Resume />}></Route>
+        <Route path="/login" element={<Login />}></Route>
+        <Route path="/register" element={<Register />}></Route>
+        <Route path="/pdf" element={<Harsh />}></Route>
+        <Route path="/" element={<Home />}></Route>
+      </Routes>
+    </>
   );
 }
 

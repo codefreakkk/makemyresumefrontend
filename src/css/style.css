@@ -1,0 +1,245 @@
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+  width: 100%;
+}
+
+.heading {
+  font-weight: 500;
+  font-size: 66px;
+}
+
+.para {
+  font-size: 19px;
+  font-weight: 400;
+  margin-top: 12px;
+  width: 60vh;
+  text-align: center;
+  color: rgb(119, 118, 116);
+}
+
+.addedu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.create {
+  height: 7vh;
+  background-color: rgb(60, 0, 199);
+  width: 25vh;
+  border: none;
+  margin-top: 40px;
+}
+
+.resumehead {
+  height: 15vh;
+  width: 100%;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  background-color: rgb(48, 55, 69);
+}
+
+.creater {
+  cursor: pointer;
+  height: 50vh;
+  width: 35vh;
+  border-radius: 0px;
+  border: 2px dashed rgb(194, 190, 190);
+  color: rgb(131, 130, 130);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: 0.5s;
+}
+
+.creater:hover {
+  color: rgb(60, 0, 199);
+  border-color: rgb(60, 0, 199);
+}
+
+/* Resume */
+
+.maincont {
+  width: 100%;
+  height: 92vh;
+  display: flex;
+}
+
+.leftside::-webkit-scrollbar {
+  width: 5px;
+  background-color: rgb(238, 238, 238);
+}
+.resumebox::-webkit-scrollbar {
+  display: none;
+}
+
+.leftside {
+  width: 50%;
+  background-color: white;
+  height: 92vh;
+  overflow-y: scroll;
+  scroll-margin-block: inherit;
+}
+.rightside {
+  width: 50%;
+  background-color: #f9f7fc;
+  height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resumebox {
+  background-color: white;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border-radius: 0px;
+  height: 87vh;
+  border-radius: 0px;
+  width: 60vh;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.edu {
+  /* background-color: rgb(252, 252, 252); */
+  background-color: #f9f7fc;
+  padding: 15px;
+  border-radius: 0px;
+}
+
+.scroll {
+  overflow-y: hidden;
+}
+
+.rhead {
+  font-weight: 400;
+  color: white;
+  font-size: 24px;
+  position: relative;
+  top: 15px;
+  left: 20px;
+}
+.rpara {
+  font-size: 12px;
+  color: rgba(248, 248, 248, 0.432);
+  margin-top: 13px;
+  margin-left: 20px;
+}
+
+.rbody {
+  /* background-color: red; */
+  /* remove height later */
+  /* height: 60vh; */
+}
+
+.ml {
+  margin-left: 5px;
+}
+
+.locals {
+  color: rgba(248, 248, 248, 0.432);
+  font-weight: 300;
+  margin-left: 10px;
+  font-size: 10px;
+  letter-spacing: 1px;
+  margin-top: 15px;
+  margin-left: 13px;
+}
+
+.rlocal {
+  display: flex;
+  margin-left: 10px;
+}
+
+.rbody {
+  display: flex;
+}
+
+.rleft {
+  width: 60%;
+}
+
+.edudesc {
+  font-size: 8px;
+  margin-left: 20px;
+  margin-top: 3px;
+  position: relative;
+  /* top: -8px; */
+  color: rgb(116, 112, 112);
+}
+
+.bar {
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.fuck {
+  border-top: 0.6px solid rgb(218, 218, 218);
+  width: 86%;
+}
+
+.eduname {
+  font-size: 8px;
+  margin-left: 20px;
+  margin-top: 10px;
+  letter-spacing: 0.3px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+.education {
+  font-size: 12px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.rright {
+  background-color: white;
+  width: 40%;
+  /* height: 90vh; */
+  display: flex;
+  padding-left: 7px;
+}
+
+.vbar {
+  background-color: rgb(207, 201, 201);
+  width: 1px;
+}
+
+/* footer */
+
+.footer {
+  color: gray;
+  background-color: rgb(245, 245, 245);
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+}
+
+.lcont {
+  flex-direction: column;
+  width: 100%;
+  height: 99vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputbox {
+  width: 20%;
+  margin-bottom: 10px;
+}
